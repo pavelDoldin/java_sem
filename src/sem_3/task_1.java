@@ -22,7 +22,7 @@ public class task_1 {
         System.out.println(arr);
         sort(arr);                            // сортировка от малого к большему
         System.out.println(arr);
-        arr.sort(Comparator.reverseOrder()); // сортировка от мольшего к малому
+        arr.sort(Comparator.reverseOrder()); // сортировка от большего к малому
         System.out.println(arr);
     }
 }

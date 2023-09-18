@@ -19,7 +19,7 @@ public class task_2 {
         list.add("str");
         list.add(6.1);
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) instanceof Integer){   // В место Integer написать Number. Удалит все цифры
+            if (list.get(i) instanceof Integer){   // В место Integer написать Number. Удалит все цифры// instanceof для сравнения типов как if
                 list.remove(i);
                 i--;
             }
