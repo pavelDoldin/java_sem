@@ -39,11 +39,4 @@ public class task_3 {
         System.out.println(map);
     }
 
-
-
-
-
-
-
-
 }
